@@ -1,0 +1,19 @@
+{
+  "name": "post-diff",
+  "version": "1.0.0",
+  "description": "A lightweight reporting and regression tool for API testing built on newman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niharmaheshwari/post-diff.git"
+  },
+  "author": "Nihar Maheshwari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niharmaheshwari/post-diff/issues"
+  },
+  "homepage": "https://github.com/niharmaheshwari/post-diff#readme"
+}
