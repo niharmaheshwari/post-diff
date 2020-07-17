@@ -1,0 +1,25 @@
+# A basic lint and npm install
+
+name: CI - Basic Build
+
+# Run on every push to the repository
+on: push
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  lint-run:
+    name: Lint
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Repository Checkout
+        uses: actions/checkout@v2
+        
+      - name: Node Setup
+        uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+          check-latest: true
+          
+      - name: Install Dependencies
+        run: npm install
