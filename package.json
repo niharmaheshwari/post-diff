@@ -2,7 +2,7 @@
   "name": "post-diff",
   "version": "1.0.0",
   "description": "A lightweight reporting and regression tool for API testing built on newman",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/niharmaheshwari/post-diff/issues"
   },
-  "homepage": "https://github.com/niharmaheshwari/post-diff#readme"
+  "homepage": "https://github.com/niharmaheshwari/post-diff#readme",
+  "lib": {
+    "post-diff": "./lib/index.js"
+  },
+  "dependencies": {
+    "yargs": "*"
+  }
 }
