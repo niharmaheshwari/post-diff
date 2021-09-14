@@ -21,7 +21,8 @@
     "post-diff": "./lib/index.js"
   },
   "dependencies": {
-    "yargs": "*"
+    "yargs": "*",
+    "newman": "5.1.2"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
